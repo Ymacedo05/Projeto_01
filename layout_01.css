@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: black;
+}
+header{
+    
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    min-width: 920px;
+}
+header > h1{
+    font: bold 2.5em sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+header a{
+    font-size: 1.2em;
+    margin: 5px 7px;
+    padding: 5px 7px;
+}
+
+header a:hover{
+    background-color: white;
+    color:teal ;
+}
+/*-------------------------------------*/
+main{
+    width:920px;
+    margin: 10px auto;
+    
+    
+}
+#esquerda{
+    width: 650px;
+    height: 500px;
+    float: left;
+}
+#esquerda>div{
+    background-color: white;
+    padding: 5px;
+    margin: 7px;
+    width: 610px;
+    height: 200px;
+    border-radius: 20px;
+}
+#esquerda>div>a{
+        color: teal;
+        
+}
+#esquerda h2{
+    background-image:linear-gradient(45deg, rgba(0, 128, 128, 0.37), transparent);
+}
+#esquerda p{
+    margin: 10px 0px;
+}
+/*==================================*/
+#direita{
+    width: 250px;
+    height: 300px;
+    float: right;
+}
+#direita>div{
+    background-color: white;
+    width: 210px;
+    padding: 5px;
+    margin: 7px 0px;
+}
+#direita>div>a{
+        color: teal;
+        
+}
+#direita h2{
+    background-color: rgba(0, 0, 0, 0.24);
+}
+#direita p{
+    margin: 5px 0px;
+}
+
+/*-------------------------------------*/
+footer{
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+footer > p {
+    
+}
